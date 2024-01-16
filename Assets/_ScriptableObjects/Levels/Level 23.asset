@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f110b482f393d4eb61601648a89cf7, type: 3}
+  m_Name: Level 23
+  m_EditorClassIdentifier: 
+  initialPos: {x: 0, y: 0, z: 0}
+  width: 4
+  height: 4
+  widthThreshold: 1
+  heightThreshold: 1
+  staticTiles:
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 4
+    stickManCount: 3
+    stickManColor: {r: 0.8784314, g: 1, b: 0, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 6
+    stickManCount: 2
+    stickManColor: {r: 0.1882353, g: 0.77254903, b: 0.039215688, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 11
+    stickManCount: 2
+    stickManColor: {r: 0.6901961, g: 0, b: 1, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 12
+    stickManCount: 4
+    stickManColor: {r: 1, g: 0, b: 0.7019608, a: 1}
+  walkableTiles:
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 0
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 2
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 5
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 8
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 10
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 13
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 14
+  obstacleTiles:
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 1
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 3
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 7
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 9
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 15
+  enviromentData: {fileID: 11400000, guid: 2cc99ce4675bd4340963bc464bddd40c, type: 2}
+  cameraData: {fileID: 11400000, guid: 42788264c93aefc4d930cb11305e791a, type: 2}

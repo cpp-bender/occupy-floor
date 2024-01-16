@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f110b482f393d4eb61601648a89cf7, type: 3}
+  m_Name: Level 37
+  m_EditorClassIdentifier: 
+  initialPos: {x: -0.5, y: 0, z: 0}
+  width: 5
+  height: 5
+  widthThreshold: 1
+  heightThreshold: 1
+  staticTiles:
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 1
+    stickManCount: 4
+    stickManColor: {r: 0, g: 0.84313726, b: 1, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 13
+    stickManCount: 2
+    stickManColor: {r: 0.1882353, g: 0.77254903, b: 0.039215688, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 15
+    stickManCount: 5
+    stickManColor: {r: 0.8784314, g: 1, b: 0, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 19
+    stickManCount: 3
+    stickManColor: {r: 1, g: 0, b: 0.7019608, a: 1}
+  - tileObj: {fileID: 1809783170511378724, guid: c67871fd93bbabb45b5a80693d703e6a, type: 3}
+    gridIndex: 22
+    stickManCount: 5
+    stickManColor: {r: 0.6901961, g: 0, b: 1, a: 1}
+  walkableTiles:
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 2
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 3
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 4
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 5
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 7
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 8
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 10
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 12
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 14
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 16
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 17
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 21
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 24
+  - tileObj: {fileID: 3517023234340657409, guid: b98d899d04f3ef048b23a5c2128df487, type: 3}
+    gridIndex: 20
+  obstacleTiles:
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 0
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 6
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 9
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 11
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 18
+  - tileObj: {fileID: 7460317306099304443, guid: d8d9616b90d71874b8ad936bbabdadc3, type: 3}
+    gridIndex: 23
+  enviromentData: {fileID: 11400000, guid: 16cb9a251c4d73245a284f57338aabf9, type: 2}
+  cameraData: {fileID: 11400000, guid: b3ea385182ff8b84486d680d061dd688, type: 2}

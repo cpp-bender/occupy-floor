@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905984c7f037b634195f5bca7e9556cf, type: 3}
+  m_Name: Enviroment Data 3X3
+  m_EditorClassIdentifier: 
+  framePrefab: {fileID: 8232500932013207067, guid: 2ae28ffd1c5168842a8672e946e9ceed, type: 3}
+  doorsPrefab: {fileID: 2500656193308350490, guid: f6862ecd8c4335d49a0c3fad57b7612f, type: 3}
+  groundCirclePrefab: {fileID: 1417784447447346445, guid: b715bdc5fa5e5bd4ca5e43ea44ccc59a, type: 3}
+  discoBallPos: {x: 1.5, y: 8.5, z: 2}
+  enviromentSettings:
+    framePos: {x: 1.5, y: 0, z: 1.5}
+    frameScale: 0.75
+    circlePos: {x: 1.5, y: 0, z: 1.5}
+    circleScale: 0.8
+    doorsPos: {x: 1.5, y: 0, z: 3.3}
